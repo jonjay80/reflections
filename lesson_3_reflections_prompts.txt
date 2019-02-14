@@ -22,14 +22,25 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    The benefit of having a copy of the last known state of the remote stored locally is that you can work
+	offline, without an internet connection.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    There are other version control applications out there but if you couldn't use them, then collaborating
+	would be a lot harder.  I would imagine that you would have to work very, very closely with the team on
+	a project via telephone or video teleconference to keep everyone updated on what files were being edited
+	by whomever was assigned.  If multiple people were working on the same file, they would have to work
+	closely to identify the modified parts and decide which to keep or discard.  Also, a cloud service or email 
+	would have to be used to do the file sharing, which would become difficult.  In other words, it would be
+	immensely harder without Git or GitHub.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    You would want to make changes to a separate branch when collaborating with others on a project through GitHub.
+	This would allow flexibility for all members of the project to work on their own branch locally while updating
+	their local master with the GitHub branch and then merging locally and pushing the branch to the remote and
+	doing a pull request to merge with the other braches or master branch that everyone else is working on.  This allows
+	for easier merging of code on the same files and keeping everything up-to-date.
